@@ -1,6 +1,6 @@
 public class Player  {
-    private int player1;
-    private int player2;
+    int player1;
+   int player2;
 
     public Player(int player1, int player2) {
         this.player1 = player1;
