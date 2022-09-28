@@ -1,14 +1,16 @@
 
 public class GameBoard {
+
+    private Player player;
     /* Board design.
        [0][0] | [0][1] | [0][2]
-         ––   |   ––   |
+         ––   ++  ––   ++  ––
        [1][0] | [1][1] | [1][2]
-         ––   |   ––   |
+         ––   ++   ––  ++   --
        [2][0] | [2][1] | [2][2]
      */
 
-    private char[] [] gameBoard = {{ ' ', ' ', ' '},
+   private char[] [] gameBoard = {{ ' ', ' ', ' '},
                                    {' ', ' ', ' '},
                                    {' ', ' ', ' '},};
 
@@ -21,8 +23,24 @@ public class GameBoard {
         System.out.println(gameBoard[2][0] + " | " + gameBoard[2][1] + " | " + gameBoard[2][2]);
     }
 
+    public boolean placeMarker(int choice,int player){
 
+
+        return false;
     }
+
+    public boolean checkWin(){
+
+        return false;
+    }
+
+    public void setPlayer(Player player) {
+        this.player = player;
+    }
+}
+
+
+
 
 
 
