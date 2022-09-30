@@ -2,16 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee836c8a-43eb-4802-a7cb-94f7166e5bdb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Game.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Game.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GameBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameBoard.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Player.java" afterDir="false" />
     </list>
-    <list id="2007a6eb-8784-4937-823e-42965dbfff72" name="Changes by PHilip" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Player.java" afterDir="false" />
-    </list>
+    <list id="2007a6eb-8784-4937-823e-42965dbfff72" name="Changes by PHilip" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,38 +23,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/src/Player.java">
-      <ranges>
-        <range start1="1" end1="3" start2="1" end2="3" changelist="ee836c8a-43eb-4802-a7cb-94f7166e5bdb" />
-        <range start1="4" end1="8" start2="4" end2="4" changelist="ee836c8a-43eb-4802-a7cb-94f7166e5bdb" />
-        <range start1="10" end1="13" start2="6" end2="11" changelist="ee836c8a-43eb-4802-a7cb-94f7166e5bdb" />
-        <range start1="18" end1="19" start2="16" end2="17" changelist="2007a6eb-8784-4937-823e-42965dbfff72" />
-        <range start1="20" end1="22" start2="18" end2="19" changelist="ee836c8a-43eb-4802-a7cb-94f7166e5bdb" />
-        <range start1="24" end1="26" start2="21" end2="22" changelist="ee836c8a-43eb-4802-a7cb-94f7166e5bdb" />
-        <range start1="28" end1="30" start2="24" end2="25" changelist="ee836c8a-43eb-4802-a7cb-94f7166e5bdb" />
-        <range start1="32" end1="34" start2="27" end2="28" changelist="ee836c8a-43eb-4802-a7cb-94f7166e5bdb" />
-        <range start1="36" end1="38" start2="30" end2="31" changelist="ee836c8a-43eb-4802-a7cb-94f7166e5bdb" />
-        <range start1="40" end1="42" start2="33" end2="34" changelist="ee836c8a-43eb-4802-a7cb-94f7166e5bdb" />
-        <range start1="44" end1="46" start2="36" end2="37" changelist="ee836c8a-43eb-4802-a7cb-94f7166e5bdb" />
-        <range start1="48" end1="50" start2="39" end2="40" changelist="ee836c8a-43eb-4802-a7cb-94f7166e5bdb" />
-        <range start1="52" end1="54" start2="42" end2="43" changelist="ee836c8a-43eb-4802-a7cb-94f7166e5bdb" />
-        <range start1="57" end1="58" start2="46" end2="47" changelist="2007a6eb-8784-4937-823e-42965dbfff72" />
-        <range start1="59" end1="60" start2="48" end2="49" changelist="2007a6eb-8784-4937-823e-42965dbfff72" />
-      </ranges>
-    </file>
-    <file path="$PROJECT_DIR$/src/Main.java">
-      <ranges>
-        <range start1="6" end1="8" start2="6" end2="8" changelist="ee836c8a-43eb-4802-a7cb-94f7166e5bdb" />
-        <range start1="13" end1="15" start2="13" end2="15" changelist="2007a6eb-8784-4937-823e-42965dbfff72" />
-        <range start1="17" end1="19" start2="17" end2="19" changelist="ee836c8a-43eb-4802-a7cb-94f7166e5bdb" />
-        <range start1="21" end1="22" start2="21" end2="21" changelist="ee836c8a-43eb-4802-a7cb-94f7166e5bdb" />
-        <range start1="24" end1="25" start2="23" end2="27" changelist="ee836c8a-43eb-4802-a7cb-94f7166e5bdb" />
-        <range start1="26" end1="26" start2="28" end2="34" changelist="ee836c8a-43eb-4802-a7cb-94f7166e5bdb" />
-        <range start1="27" end1="32" start2="35" end2="44" changelist="ee836c8a-43eb-4802-a7cb-94f7166e5bdb" />
-      </ranges>
-    </file>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
