@@ -2,18 +2,15 @@ public class Player  {
 
     //Create players 1 = X and players2 = O
     //Method to see if a move to a position.
-     public boolean placeMarker(int choice,int player,GameBoard gameBoard){
+     public boolean placeMarker(int choice,int player, GameBoard gameBoard){
         char piece = ' ';
 
         if (player == 1) {
             piece = 'X';
-            // skickar choice till en lista som motsvarar spelare
         }
         else if (player == 2) {
             piece = 'O';
-            // skickar choice till en lista som motsvarar spelare
         }
-        //
 
         if (choice == 1){
             gameBoard.gameBoard[0][0] = piece;
