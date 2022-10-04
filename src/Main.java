@@ -13,53 +13,89 @@ public class Main {
         System.out.println("Would you like to play game? (Click enter to continue)");
         sc.nextLine();
 
-        //while loop
-        while (true) {
+        boolean play = true;
+
+    do {
+
+        //while loop -Take input from user until there is a free seat.
+        while (play) {
             System.out.println("Player1 put in you position (1-9)");
             int user1Input = sc.nextInt();
             System.out.println(user1Input);
 
-            boolean tryAgainPlayer1 = false;//-> Ta input från user tills det finns en ledig plats.
-           /* while (!tryAgainPlayer1) {
-                if (tryAgainPlayer1 == true){
-                }else
-            */
             if (board.checkIfEmpty(user1Input)) {
                 player1.placeMarker(user1Input, 1, board);
+                break;
             } else {
                 System.out.println("Sorry! Position already taken. It's invalid.  Try again!");
             }
+        }
 
-            board.printBoard();
+        board.printBoard();
 
-                if (board.checkWin()) {
-                    board.clearBoard();
-                }
+        if (board.checkWin()) {
+            board.clearBoard();
+            System.out.println("Play again! or Do you want to quit the game? (y/n)");
+            sc.nextLine();
+            String again = sc.nextLine();
 
+            // play again printout with switch cases.
+            switch (again) {
+                case "y":
+                    System.out.println("Nice! Let's play again");
+                    break;
+                case "n":
+                    System.out.println("Thank you!!");
+                    System.out.println("Goodbye, I hope we'll meet again!");
 
+                default:
+                    break;
+            }
+            if (again.equals("n")) {
+                play = false;
+            }
+        }
+
+        //while loop -Take input from user until there is a free seat.
+        while (play) {
             System.out.println("Player2 put in you position (1-9)");
             int user2Input = sc.nextInt();
             System.out.println(user2Input);
 
-            boolean tryAgainPlayer2 = false;//-> Ta input från user tills det finns en ledig plats.
-           /* while (!tryAgainPlayer2) {
-                if (tryAgainPlayer2 == true) {
-                } else
-            */
             if (board.checkIfEmpty(user2Input)) {
                 player2.placeMarker(user2Input, 2, board);
+                break;
             } else {
                 System.out.println("Sorry! Position already taken. It's invalid.  Try again!");
             }
-
-            board.printBoard();
-
-            if (board.checkWin()) {
-                board.clearBoard();
-            }
         }
+
+        board.printBoard();
+
+        if (board.checkWin()) {
+            board.clearBoard();
+            System.out.println("Play again! or Do you want to quit the game? (y/n)");
+            sc.nextLine();
+            String again = sc.nextLine();
+
+            // play again printout with switch cases.
+            switch (again) {
+                case "y":
+                    System.out.println("Nice! Let's play again");
+                    break;
+                case "n":
+                    System.out.println("Thank you!!");
+                    System.out.println("Goodbye, I hope we'll meet again!");
+                default:
+                    break;
+            }
+
+        if (again.equals("n")) {
+            play = false;
+        }
+
+    }
+    }while (play);
     }
 }
-
-
 

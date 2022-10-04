@@ -1,5 +1,4 @@
 public class Player  {
-
     //Create players 1 = X and players2 = O
     //Method to see if a move to a position.
      public boolean placeMarker(int choice,int player, GameBoard gameBoard){
