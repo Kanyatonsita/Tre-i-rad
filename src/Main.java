@@ -19,12 +19,10 @@ public class Main {
         do {
             //while loop -Take input from user until there is a free seat.
             while (play) {
-                System.out.println("Player1 put in you position (1-9)");
                 play = player1Move(board,sc,player1);
+
             }
-
             board.printBoard();
-
             play = winner(board, sc);
             if (!play) {
                 break;
@@ -32,7 +30,6 @@ public class Main {
 
             //while loop -Take input from user until there is a free seat.
             while (play) {
-               System.out.println("Player2 put in you position (1-9)");
                 play = player2Move(board,sc,player2);
             }
 
@@ -76,6 +73,7 @@ public class Main {
     // if a move is invalid = return false and lets player try again.
     // if position is valid = return true.
     static boolean player1Move(GameBoard board, Scanner sc, Player player){
+        System.out.println("Player1 put in you position (1-9)");
         int user1Input = sc.nextInt();
         System.out.println(user1Input);
 
@@ -91,19 +89,20 @@ public class Main {
 
     static boolean player2Move(GameBoard board, Scanner sc, Player player){
 
-    int user2Input = sc.nextInt();
-       System.out.println(user2Input);
-      if (board.checkIfEmpty(user2Input)) {
-          player.placeMarker(user2Input, 2, board);
-            return false;
-        } else {
-         System.out.println("Sorry! Position already taken.");
-           System.out.println("It's invalid. Try again!");
-        }
+        Random random = new Random();
+        int computerInput = random.nextInt(9)+1;
+
+        if (board.checkIfEmpty(computerInput)) {
+          player.placeMarker(computerInput, 2, board);
+          System.out.println("Player2 put in you position (1-9)");
+          return false;
+        } else;
         return true;
     }
 
     }
+
+
 
 
 

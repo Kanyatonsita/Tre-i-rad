@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ee836c8a-43eb-4802-a7cb-94f7166e5bdb" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GameBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameBoard.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Player.java" afterDir="false" />
     </list>
     <list id="882622ae-cb9f-4c75-92fc-beca6f823359" name="Changes by Jocke" comment="" />
     <list id="57413cc6-a7b3-4807-bbbb-ef0e97c5fd3f" name="Changes by juliapetersson" comment="" />
