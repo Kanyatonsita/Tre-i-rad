@@ -8,8 +8,8 @@ public class GameBoard {
            [2][0] | [2][1] | [2][2]
          */
   protected char[][] gameBoard = {{' ', ' ', ' '},
-            {' ', ' ', ' '},
-            {' ', ' ', ' '},};
+                                 {' ', ' ', ' '},
+                                 {' ', ' ', ' '},};
 
     //Print a game board.
     public void printBoard() {
@@ -23,7 +23,6 @@ public class GameBoard {
 
     //Method to Check the winner!! and if the game is tied!
     public boolean checkWin() {
-
 
         if (gameBoard[0][0] == 'X' && gameBoard[0][1] == 'X' && gameBoard[0][2] == 'X') {
                     System.out.println("Congratulations player 1 you win!!");
