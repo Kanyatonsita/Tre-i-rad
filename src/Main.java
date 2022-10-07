@@ -23,6 +23,9 @@ public class Main {
             board.printBoard();
 
             play = winner(board, sc);
+            if (!play) {
+                break;
+            }
 
             //while loop -Take input from user until there is a free seat.
             while (play) {
@@ -31,7 +34,10 @@ public class Main {
             board.printBoard();
 
             play = winner(board, sc);
-            
+            if (!play) {
+                break;
+            }
+
         } while (play);
 
     }

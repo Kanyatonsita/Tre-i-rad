@@ -4,14 +4,9 @@
     <list default="true" id="ee836c8a-43eb-4802-a7cb-94f7166e5bdb" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Player.java" afterDir="false" />
     </list>
-    <list id="882622ae-cb9f-4c75-92fc-beca6f823359" name="Changes by Jocke" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-    </list>
-    <list id="57413cc6-a7b3-4807-bbbb-ef0e97c5fd3f" name="Changes by juliapetersson" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-    </list>
+    <list id="882622ae-cb9f-4c75-92fc-beca6f823359" name="Changes by Jocke" comment="" />
+    <list id="57413cc6-a7b3-4807-bbbb-ef0e97c5fd3f" name="Changes by juliapetersson" comment="" />
     <list id="2007a6eb-8784-4937-823e-42965dbfff72" name="Changes by PHilip" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,34 +22,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/src/Main.java">
-      <ranges>
-        <range start1="5" end1="6" start2="5" end2="6" changelist="ee836c8a-43eb-4802-a7cb-94f7166e5bdb" />
-        <range start1="10" end1="11" start2="10" end2="12" changelist="ee836c8a-43eb-4802-a7cb-94f7166e5bdb" />
-        <range start1="12" end1="13" start2="13" end2="13" changelist="ee836c8a-43eb-4802-a7cb-94f7166e5bdb" />
-        <range start1="14" end1="15" start2="14" end2="15" changelist="57413cc6-a7b3-4807-bbbb-ef0e97c5fd3f" />
-        <range start1="17" end1="18" start2="17" end2="17" changelist="ee836c8a-43eb-4802-a7cb-94f7166e5bdb" />
-        <range start1="21" end1="23" start2="20" end2="21" changelist="ee836c8a-43eb-4802-a7cb-94f7166e5bdb" />
-        <range start1="25" end1="25" start2="23" end2="24" changelist="ee836c8a-43eb-4802-a7cb-94f7166e5bdb" />
-        <range start1="26" end1="29" start2="25" end2="25" changelist="ee836c8a-43eb-4802-a7cb-94f7166e5bdb" />
-        <range start1="34" end1="35" start2="30" end2="30" changelist="ee836c8a-43eb-4802-a7cb-94f7166e5bdb" />
-        <range start1="36" end1="36" start2="31" end2="32" changelist="882622ae-cb9f-4c75-92fc-beca6f823359" />
-        <range start1="37" end1="40" start2="33" end2="34" changelist="882622ae-cb9f-4c75-92fc-beca6f823359" />
-        <range start1="44" end1="50" start2="38" end2="47" changelist="ee836c8a-43eb-4802-a7cb-94f7166e5bdb" />
-        <range start1="51" end1="64" start2="48" end2="54" changelist="ee836c8a-43eb-4802-a7cb-94f7166e5bdb" />
-        <range start1="65" end1="65" start2="55" end2="57" changelist="ee836c8a-43eb-4802-a7cb-94f7166e5bdb" />
-        <range start1="66" end1="69" start2="58" end2="62" changelist="ee836c8a-43eb-4802-a7cb-94f7166e5bdb" />
-        <range start1="70" end1="73" start2="63" end2="65" changelist="ee836c8a-43eb-4802-a7cb-94f7166e5bdb" />
-        <range start1="75" end1="78" start2="67" end2="70" changelist="ee836c8a-43eb-4802-a7cb-94f7166e5bdb" />
-        <range start1="79" end1="87" start2="71" end2="79" changelist="ee836c8a-43eb-4802-a7cb-94f7166e5bdb" />
-        <range start1="89" end1="89" start2="81" end2="82" changelist="ee836c8a-43eb-4802-a7cb-94f7166e5bdb" />
-        <range start1="91" end1="93" start2="84" end2="86" changelist="ee836c8a-43eb-4802-a7cb-94f7166e5bdb" />
-        <range start1="94" end1="100" start2="87" end2="94" changelist="ee836c8a-43eb-4802-a7cb-94f7166e5bdb" />
-        <range start1="101" end1="103" start2="95" end2="96" changelist="ee836c8a-43eb-4802-a7cb-94f7166e5bdb" />
-      </ranges>
-    </file>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
